@@ -1,0 +1,4 @@
+---
+# Install leiningen
+- name: Copy lein script
+  copy: src=lein dest=/usr/bin/lein owner=root group=root mode=755
